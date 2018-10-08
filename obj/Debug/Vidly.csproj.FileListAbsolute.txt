@@ -141,6 +141,12 @@ C:\Users\TheTo\OneDrive\Desktop\Tech Academy Projects\Tech-Academy-Projects\Vidl
 C:\Users\TheTo\OneDrive\Desktop\Tech Academy Projects\Tech-Academy-Projects\Vidly\Vidly\obj\Debug\Vidly.dll
 C:\Users\TheTo\OneDrive\Desktop\Tech Academy Projects\Tech-Academy-Projects\Vidly\Vidly\obj\Debug\Vidly.pdb
 C:\Users\TheTo\OneDrive\Desktop\Tech Academy Projects\Tech-Academy-Projects\Vidly\Vidly\obj\Debug\Vidly.csprojAssemblyReference.cache
+C:\Users\TheTo\OneDrive\Documents\GitHub\Vidly\Vidly\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\TheTo\OneDrive\Documents\GitHub\Vidly\Vidly\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\TheTo\OneDrive\Documents\GitHub\Vidly\Vidly\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\TheTo\OneDrive\Documents\GitHub\Vidly\Vidly\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\TheTo\OneDrive\Documents\GitHub\Vidly\Vidly\bin\roslyn\System.IO.Compression.dll
+C:\Users\TheTo\OneDrive\Documents\GitHub\Vidly\Vidly\bin\roslyn\VBCSCompiler.exe
 C:\Users\TheTo\OneDrive\Documents\GitHub\Vidly\Vidly\bin\ApplicationInsights.config
 C:\Users\TheTo\OneDrive\Documents\GitHub\Vidly\Vidly\bin\Vidly.dll.config
 C:\Users\TheTo\OneDrive\Documents\GitHub\Vidly\Vidly\bin\Vidly.dll
@@ -152,13 +158,9 @@ C:\Users\TheTo\OneDrive\Documents\GitHub\Vidly\Vidly\bin\roslyn\csi.exe
 C:\Users\TheTo\OneDrive\Documents\GitHub\Vidly\Vidly\bin\roslyn\csi.exe.config
 C:\Users\TheTo\OneDrive\Documents\GitHub\Vidly\Vidly\bin\roslyn\csi.rsp
 C:\Users\TheTo\OneDrive\Documents\GitHub\Vidly\Vidly\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
-C:\Users\TheTo\OneDrive\Documents\GitHub\Vidly\Vidly\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
 C:\Users\TheTo\OneDrive\Documents\GitHub\Vidly\Vidly\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
-C:\Users\TheTo\OneDrive\Documents\GitHub\Vidly\Vidly\bin\roslyn\Microsoft.CodeAnalysis.dll
 C:\Users\TheTo\OneDrive\Documents\GitHub\Vidly\Vidly\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
-C:\Users\TheTo\OneDrive\Documents\GitHub\Vidly\Vidly\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
 C:\Users\TheTo\OneDrive\Documents\GitHub\Vidly\Vidly\bin\roslyn\Microsoft.CSharp.Core.targets
-C:\Users\TheTo\OneDrive\Documents\GitHub\Vidly\Vidly\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
 C:\Users\TheTo\OneDrive\Documents\GitHub\Vidly\Vidly\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
 C:\Users\TheTo\OneDrive\Documents\GitHub\Vidly\Vidly\bin\roslyn\Microsoft.VisualBasic.Core.targets
 C:\Users\TheTo\OneDrive\Documents\GitHub\Vidly\Vidly\bin\roslyn\Microsoft.Win32.Primitives.dll
@@ -168,7 +170,6 @@ C:\Users\TheTo\OneDrive\Documents\GitHub\Vidly\Vidly\bin\roslyn\System.Console.d
 C:\Users\TheTo\OneDrive\Documents\GitHub\Vidly\Vidly\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
 C:\Users\TheTo\OneDrive\Documents\GitHub\Vidly\Vidly\bin\roslyn\System.Diagnostics.Process.dll
 C:\Users\TheTo\OneDrive\Documents\GitHub\Vidly\Vidly\bin\roslyn\System.Diagnostics.StackTrace.dll
-C:\Users\TheTo\OneDrive\Documents\GitHub\Vidly\Vidly\bin\roslyn\System.IO.Compression.dll
 C:\Users\TheTo\OneDrive\Documents\GitHub\Vidly\Vidly\bin\roslyn\System.IO.FileSystem.dll
 C:\Users\TheTo\OneDrive\Documents\GitHub\Vidly\Vidly\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
 C:\Users\TheTo\OneDrive\Documents\GitHub\Vidly\Vidly\bin\roslyn\System.IO.FileSystem.Primitives.dll
@@ -191,7 +192,6 @@ C:\Users\TheTo\OneDrive\Documents\GitHub\Vidly\Vidly\bin\roslyn\System.Xml.XPath
 C:\Users\TheTo\OneDrive\Documents\GitHub\Vidly\Vidly\bin\roslyn\vbc.exe
 C:\Users\TheTo\OneDrive\Documents\GitHub\Vidly\Vidly\bin\roslyn\vbc.exe.config
 C:\Users\TheTo\OneDrive\Documents\GitHub\Vidly\Vidly\bin\roslyn\vbc.rsp
-C:\Users\TheTo\OneDrive\Documents\GitHub\Vidly\Vidly\bin\roslyn\VBCSCompiler.exe
 C:\Users\TheTo\OneDrive\Documents\GitHub\Vidly\Vidly\bin\roslyn\VBCSCompiler.exe.config
 C:\Users\TheTo\OneDrive\Documents\GitHub\Vidly\Vidly\bin\Antlr3.Runtime.dll
 C:\Users\TheTo\OneDrive\Documents\GitHub\Vidly\Vidly\bin\AutoMapper.dll
@@ -266,7 +266,6 @@ C:\Users\TheTo\OneDrive\Documents\GitHub\Vidly\Vidly\bin\Microsoft.AI.Dependency
 C:\Users\TheTo\OneDrive\Documents\GitHub\Vidly\Vidly\bin\Microsoft.AI.WindowsServer.xml
 C:\Users\TheTo\OneDrive\Documents\GitHub\Vidly\Vidly\bin\Microsoft.AI.Web.xml
 C:\Users\TheTo\OneDrive\Documents\GitHub\Vidly\Vidly\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-C:\Users\TheTo\OneDrive\Documents\GitHub\Vidly\Vidly\obj\Debug\Vidly.csprojAssemblyReference.cache
 C:\Users\TheTo\OneDrive\Documents\GitHub\Vidly\Vidly\obj\Debug\Vidly.Migrations.InitialModel.resources
 C:\Users\TheTo\OneDrive\Documents\GitHub\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddMembershipType.resources
 C:\Users\TheTo\OneDrive\Documents\GitHub\Vidly\Vidly\obj\Debug\Vidly.Migrations.PopulateMembershipTypes.resources
