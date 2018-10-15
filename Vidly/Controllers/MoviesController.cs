@@ -26,35 +26,12 @@ namespace Vidly.Controllers
             _context.Dispose();
         }
 
-        // GET: Movies/Random
-        //public ActionResult Random()
-        //{
-
-        //    var movie = new Movie() { Name = "Shrek!" };
-        //    var customers = new List<Customer>
-        //    {
-        //        new Customer { Name = "John Smith" },
-        //        new Customer { Name = "Larry Page" }
-
-        //    };
-        //    var viewModel = new RandomMovieViewModel
-        //    {
-        //        Movie = movie,
-        //        Customers = customers
-
-        //    };
-
-        //    return View(viewModel);
-        //}
-
         
         //movies
        
         public ViewResult Index()
         {
-            var movie = _context.Movies.Include(m => m.Genre).ToList();
-
-            return View(movie);
+            return View();
         }
 
         public ActionResult Details(int id)
