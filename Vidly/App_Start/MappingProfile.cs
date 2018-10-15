@@ -18,7 +18,7 @@ namespace Vidly.App_Start
             
 
             Mapper.CreateMap<Movie, MovieDTO>();
-            Mapper.CreateMap<MovieDTO, Movie>();
+            
 
             Mapper.CreateMap<Customer, CustomerDTO>().ReverseMap().ForMember(c => c.Id, opt => opt.Ignore());
             Mapper.CreateMap<Movie, MovieDTO>().ReverseMap().ForMember(m => m.Id, opt => opt.Ignore());

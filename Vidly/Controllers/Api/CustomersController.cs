@@ -2,12 +2,13 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Net;
+using System.Data.Entity;
 using System.Net.Http;
 using System.Web.Http;
 using Vidly.Models;
 using AutoMapper;
 using Vidly.DTOs;
-using System.Data.Entity;
+
 
 namespace Vidly.Controllers.Api
 {
@@ -76,15 +77,18 @@ namespace Vidly.Controllers.Api
         }
 
         // DELETE /api/cusomters/1
-        public void DeleteCustomer(int id)
+        [HttpDelete]
+        public IHttpActionResult DeleteCustomer(int id)
         {
             var customerInDb = _context.Customers.SingleOrDefault(c => c.Id == id);
 
             if (customerInDb == null)
-                throw new HttpResponseException(HttpStatusCode.NotFound);
+                return NotFound();
 
             _context.Customers.Remove(customerInDb);
             _context.SaveChanges();
+
+            return Ok();
         }
 
     }
