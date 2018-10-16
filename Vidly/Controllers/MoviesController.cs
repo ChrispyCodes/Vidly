@@ -11,6 +11,7 @@ using Vidly.Models.ViewModels;
 
 namespace Vidly.Controllers
 {
+    [Authorize]
     public class MoviesController : Controller
     {
 
