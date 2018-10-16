@@ -411,7 +411,6 @@ C:\Users\TheTo\OneDrive\Documents\GitHub\Vidly\Vidly\Vidly\bin\Microsoft.AI.Depe
 C:\Users\TheTo\OneDrive\Documents\GitHub\Vidly\Vidly\Vidly\bin\Microsoft.AI.WindowsServer.xml
 C:\Users\TheTo\OneDrive\Documents\GitHub\Vidly\Vidly\Vidly\bin\Microsoft.AI.Web.xml
 C:\Users\TheTo\OneDrive\Documents\GitHub\Vidly\Vidly\Vidly\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-C:\Users\TheTo\OneDrive\Documents\GitHub\Vidly\Vidly\Vidly\obj\Debug\Vidly.csprojAssemblyReference.cache
 C:\Users\TheTo\OneDrive\Documents\GitHub\Vidly\Vidly\Vidly\obj\Debug\Vidly.Migrations.InitialModel.resources
 C:\Users\TheTo\OneDrive\Documents\GitHub\Vidly\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddMembershipType.resources
 C:\Users\TheTo\OneDrive\Documents\GitHub\Vidly\Vidly\Vidly\obj\Debug\Vidly.Migrations.PopulateMembershipTypes.resources
