@@ -426,9 +426,10 @@ C:\Users\TheTo\OneDrive\Documents\GitHub\Vidly\Vidly\Vidly\obj\Debug\Vidly.Migra
 C:\Users\TheTo\OneDrive\Documents\GitHub\Vidly\Vidly\Vidly\obj\Debug\Vidly.Migrations.addgenreid1.resources
 C:\Users\TheTo\OneDrive\Documents\GitHub\Vidly\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddNameRequiredInMovie.resources
 C:\Users\TheTo\OneDrive\Documents\GitHub\Vidly\Vidly\Vidly\obj\Debug\Vidly.Migrations.SeedUsers.resources
+C:\Users\TheTo\OneDrive\Documents\GitHub\Vidly\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddLicenseToUser.resources
+C:\Users\TheTo\OneDrive\Documents\GitHub\Vidly\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddPhoneToUser.resources
 C:\Users\TheTo\OneDrive\Documents\GitHub\Vidly\Vidly\Vidly\obj\Debug\Vidly.csproj.GenerateResource.cache
 C:\Users\TheTo\OneDrive\Documents\GitHub\Vidly\Vidly\Vidly\obj\Debug\Vidly.csproj.CoreCompileInputs.cache
 C:\Users\TheTo\OneDrive\Documents\GitHub\Vidly\Vidly\Vidly\obj\Debug\Vidly.csproj.CopyComplete
 C:\Users\TheTo\OneDrive\Documents\GitHub\Vidly\Vidly\Vidly\obj\Debug\Vidly.dll
 C:\Users\TheTo\OneDrive\Documents\GitHub\Vidly\Vidly\Vidly\obj\Debug\Vidly.pdb
-C:\Users\TheTo\OneDrive\Documents\GitHub\Vidly\Vidly\Vidly\obj\Debug\Vidly.csprojAssemblyReference.cache
