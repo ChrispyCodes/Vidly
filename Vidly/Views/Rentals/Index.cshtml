@@ -5,24 +5,36 @@
 }
 
 <h2>New Rental Form</h2>
-<form>
+<form id="newRental">
     <div class="form-group">
         <label>Customer</label>
-        <input id="customer"type="text" value="" class="form-control"/>
-    </div> 
+        <div class="tt-container">
+            <input id="customer" type="text" value="" class="form-control" />
+        </div>
+    </div>
     <div class="form-group">
         <label>Movie</label>
-        <input id="movies" type="text" value="" class="form-control" />
+        <div class="tt-container">
+            <input id="movie" type="text" value="" class="form-control" />
+        </div>
     </div>
 
+    <div class="row">
+        <div class="col-md-4 col-sm-4">
+            <ul id="movies" class="list-group"></ul>
+        </div>
+    </div>
     <button class="btn btn-primary">Submit</button>
 </form>
 
 @section scripts
 {
+    @Scripts.Render("~/bundles/jqueryval")
     <script>
         $(document).ready(function () {
-            var vm = {};
+            var vm = {
+                movieIds: []
+            };
             var customers = new Bloodhound({
                 datumTokenizer: Bloodhound.tokenizers.obj.whitespace('name'),
                 queryTokenizer: Bloodhound.tokenizers.whitespace,
@@ -42,10 +54,10 @@
                 }).on("typeahead:select", function (e, customer) {
                     vm.customerId = customer.id;
                 });
-        })
 
-        $(document).ready(function () {
-            var vm = {};
+
+
+
             var movies = new Bloodhound({
                 datumTokenizer: Bloodhound.tokenizers.obj.whitespace('name'),
                 queryTokenizer: Bloodhound.tokenizers.whitespace,
@@ -55,7 +67,7 @@
                 }
             });
 
-            $('#movies').typeahead({
+            $('#movie').typeahead({
                 minLength: 2,
                 highlight: true
             }, {
@@ -63,8 +75,26 @@
                     display: 'name',
                     source: movies
                 }).on("typeahead:select", function (e, movie) {
-                    vm.movieId = movie.id;
+                    $("#movies").append("<li class='list-group-item'>" + movie.name + "</li>");
+
+                    $("#movie").typeahead("val", "");
+                    vm.movieIds.push(movie.id);
                 });
-        })
+            $("#newRental").submit(function (e) {
+                e.preventDefault();
+                $.ajax({
+                    url: "/api/newRentals",
+                    method: "post",
+                    data: vm
+                })
+                    .done(function () {
+                        toastr.success("Rentals Successfully Added");
+                    })
+                    .fail(function () {
+                        toastr.error("Whoops, something unexpected happened.");
+                    });
+            });
+        });
+
     </script>
-    }
+}
