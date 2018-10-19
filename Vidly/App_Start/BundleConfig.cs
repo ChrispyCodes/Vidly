@@ -33,6 +33,7 @@ namespace Vidly
                       "~/Content/bootstrap-lumen.css",
                       "~/Content/datatables/css/datatables.bootstrap.css",
                       "~/Content/site.css",
+                      "~/Content/bootstrap-theme.css",
                       "~/Content/toastr.css",
                       "~/Content/main.css",
                       "~/Content/typeahead.css"));

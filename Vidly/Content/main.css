@@ -1,16 +1,10 @@
-﻿body {
-}
+﻿
 
-.parallax {
-    /* The image used */
-    background-image: url("../content/images/Chicago_Theater.jpg");
-    /* Set a specific height */
-    min-height: 500px;
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
+.banner {
+    height: 500px;
+    position: fixed;
+    background: url("../content/images/Chicago_Theater.jpg");
     background-size: cover;
-    
-    
+    width: 100%;
+    top: 100px;
 }
