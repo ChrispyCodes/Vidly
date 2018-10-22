@@ -1,10 +1,32 @@
-﻿
+﻿@media (min-width: 778px) {
+    .container {
+        max-width: 100%;
+    }
+}
+
+@media (min-width: 992px) {
+    .container {
+        max-width: 100%;
+    }
+}
 
 .banner {
-    height: 500px;
-    position: fixed;
-    background: url("../content/images/Chicago_Theater.jpg");
+    height: 800px;
+    background: url("../content/images/new-york-city.jpg");
     background-size: cover;
-    width: 100%;
-    top: 100px;
+    width: 100vw;
+    position: relative;
+    margin-left: -50vw;
+    margin-top: -20px;
+    left: 50%;
+
+}
+
+.banner tt {
+    color: white;
+    font-size: 54px;
+    font-weight: 700;
+    text-align: center;
+    margin: 50%;
+    margin-top: 50%;
 }

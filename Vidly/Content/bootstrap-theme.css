@@ -98,12 +98,3 @@ table a:not(.btn), .table a:not(.btn) {
     box-shadow: none;
     border: 2px solid #FF8598;
 }
-
-.banner {
-    height: 500px;
-    position: fixed;
-    background: url("../content/images/Chicago_Theater.jpg");
-    background-size: cover;
-    width: 100%;
-    top: 100px;
-}

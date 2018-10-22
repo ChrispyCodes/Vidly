@@ -82,35 +82,43 @@
                 });
 
             $.validator.addMethod("validCustomer", function () {
+
                 return vm.customerId && vm.customerId !== 0;
+
             }, "Please select a valid customer.");
 
             $.validator.addMethod("atLeastOneMovie", function () {
-                return vm.movieIds && vm.movieIds > 0;
-            }, "Please select atleast one movie.");
 
-            var validator = $("newRental").validate({
+                return vm.movieIds.length > 0;
+
+            }, "Please select at least one movie.");
+
+            var validator = $("#newRental").validate({
+
                 submitHandler: function () {
-                    
+
                     $.ajax({
+
                         url: "/api/Rentals",
                         method: "post",
                         data: vm
                     })
                         .done(function () {
-                            toastr.success("Rentals Successfully Added.");
+
+                            toastr.success("Rentals successfully recorded.");
 
                             $("#customer").typeahead("val", "");
+
                             $("#movie").typeahead("val", "");
+
                             $("#movies").empty();
 
-                            vm = {
-                                movieIds: []
-                            }
+                            vm = { movieIds: [] };
                             validator.resetForm();
                         })
+
                         .fail(function () {
-                            toastr.error("Whoops, something unexpected happened.");
+                            toastr.error("Something unexpected happened.");
                         });
                     return false;
                 }
