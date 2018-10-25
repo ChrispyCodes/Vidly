@@ -6,6 +6,9 @@
     <title>@ViewBag.Title </title>
     @Styles.Render("~/Content/css")
     @Scripts.Render("~/bundles/modernizr")
+    <!-- Font Awesome -->
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+
 
 </head>
 <body>
@@ -14,7 +17,19 @@
         @RenderBody()
         <hr />
         <footer>
-            <p>&copy; @DateTime.Now.Year - Vidly </p>
+            
+                <div class="col-md-12 text-center">
+                    <p>
+                        <ul class="social">
+                            <li><a href="https://github.com/ChrispyCodes" target="_blank"><i class="fa fa-github"></i></a></li>
+                            <li><a href="https://www.linkedin.com/in/christopher-gaynor/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+                            <li><a href="mailto:christopher.gaynor6@gmail.com"><i class="fa fa-envelope"></i></a></li>
+
+                        </ul>
+                    </p>
+                <p>&copy; @DateTime.Now.Year - Vidly </p>
+                </div>
+            
         </footer>
     </div>
 
